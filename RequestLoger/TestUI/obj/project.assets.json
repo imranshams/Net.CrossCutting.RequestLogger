@@ -11812,11 +11812,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\TFS\\Project_RequestLoger\\RequestLoger\\TestUI\\TestUI.csproj",
+      "projectUniqueName": "D:\\Projects\\TFS\\Project_RequestLoger\\Net.CrossCutting.RequestLogger\\RequestLoger\\TestUI\\TestUI.csproj",
       "projectName": "TestUI",
-      "projectPath": "D:\\Projects\\TFS\\Project_RequestLoger\\RequestLoger\\TestUI\\TestUI.csproj",
+      "projectPath": "D:\\Projects\\TFS\\Project_RequestLoger\\Net.CrossCutting.RequestLogger\\RequestLoger\\TestUI\\TestUI.csproj",
       "packagesPath": "C:\\Users\\i.shams\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\TFS\\Project_RequestLoger\\RequestLoger\\TestUI\\obj\\",
+      "outputPath": "D:\\Projects\\TFS\\Project_RequestLoger\\Net.CrossCutting.RequestLogger\\RequestLoger\\TestUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

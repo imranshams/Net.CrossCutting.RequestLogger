@@ -1,5 +1,10 @@
 # Net.CrossCutting.RequestLogger
 
+Handle Cross-Cutting conserns via the power of Asp.net-core middelware.  
+**RequestLogger** make it possible to log each http request and it related response to multiple data source (DB or file for example).
+
+At the beginning you need to config **RequestLogger**, this is requierd because we need to fetch some dynamic settings at start point. To achieve that add a new json properties named **RequestLog** to your  **appseting.josn** file.
+
 ```json
 {
   "RequestLog": {
@@ -13,44 +18,46 @@
 }
 ```
 
-Startup
+Then edit your *startup* and *ConfigureServices* methods (composition root of your Dependency Injection **Startup.cs** file by default) as below.  
 
 ```c#
+private RequestLogSetting requestLogSetting;
+
 public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
+{
+    //...
+    requestLogSetting = Configuration.GetSection("RequestLog").Get<RequestLogSetting>();
+    //...
+}
 
-            requestLogSetting = Configuration.GetSection("RequestLog").Get<RequestLogSetting>();
-        }
-```
-
-ConfigureServices:
-
-```c#
 public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddSingleton<IRequestLogSetting>(requestLogSetting);
-
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-        }
+{
+    //...
+    services.AddSingleton<IRequestLogSetting>(requestLogSetting);
+    //...
+}
 ```
 
-Configure:
+Finally edit your *Configure* method. This tell .net core runtime to inject **RequestLogger** middelware to its pipeline. 
 
 ```c#
 public void Configure(IApplicationBuilder app, IHostingEnvironment env)
-        {
+{
+    //Sample 1: Log all recieved requests
+    appBuilder.UseRequestLoggerMiddleware();    
+    //...
+}
+}
+```
 
-            app.UseWhen(context => context.Request.Path.StartsWithSegments("/api"), appBuilder =>
-            {
-                appBuilder.UseRequestLoggerMiddleware();
-            });
-
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-
-            app.UseMvc();
-        }
+Also you can filter the routing of middelware as you want like the following example. In this example the middelware logs all recieved requests when incomming http requests started with '/api'.
+```c#
+public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+{
+    app.UseWhen(context => context.Request.Path.StartsWithSegments("/api"), appBuilder =>
+    {
+        appBuilder.UseRequestLoggerMiddleware();
+    });
+    //...
+}
 ```
