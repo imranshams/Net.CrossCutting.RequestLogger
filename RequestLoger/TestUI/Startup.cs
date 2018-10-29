@@ -21,7 +21,7 @@ namespace TestUI
         {
             Configuration = configuration;
 
-            requestLogSetting = Configuration.GetSection("RequestLog").Get<RequestLogSetting>();
+            requestLogSetting = Configuration.GetSection("RequestLogger").Get<RequestLogSetting>();
         }
 
         public IConfiguration Configuration { get; }
