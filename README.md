@@ -27,7 +27,7 @@ private RequestLogSetting requestLogSetting;
 public Startup(IConfiguration configuration)
 {
     //...
-    requestLogSetting = Configuration.GetSection("RequestLog").Get<RequestLogSetting>();
+    requestLogSetting = Configuration.GetSection("RequestLogger").Get<RequestLogSetting>();
     //...
 }
 
