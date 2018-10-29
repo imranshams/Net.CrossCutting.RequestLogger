@@ -1,0 +1,10 @@
+{
+  "RequestLog": {
+    "Status": true,
+    //file,sqlserver
+    "Provider": "sqlserver",
+    "FilePath": "logs/requests/reqlog-.txt",
+    "SqlServerConnectionString": "Data Source=SQL-SRV\\SQL2017,5434;Initial Catalog=ObdSuiteLogs;User ID=sa;Password=admin@123",
+    "SqlServerTableName": "RequestLog"
+  }
+}

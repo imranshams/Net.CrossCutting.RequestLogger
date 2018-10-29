@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Required elements-->
+    <id>Net.CrossCutting.RequestLogger</id>
+    <version>1.0.3</version>
+    <description>You can log each one of your requests in asp.net core.</description>
+    <authors>Imran Shamszadeh,Ali Baghernejad</authors>
+
+    <!-- Optional elements -->
+    <title>Request Logger</title>
+  </metadata>
+  <!-- Optional 'files' node -->
+</package>

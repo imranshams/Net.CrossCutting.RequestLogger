@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Imran.RequestLogger</id>
+    <version>1.0.1</version>
+    <authors>Imran Shamszadeh</authors>
+    <owners>Imran Shamszadeh</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <tags>.NetCore, Request, Logger, Log, Bug Fix, middleware, c#, asp.net</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Microsoft.AspNetCore" version="2.1.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.1.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="2.7.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Formatting.Compact" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.File" version="4.0.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.MSSqlServerCore" version="1.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Projects\TFS\Project_RequestLoger\RequestLoger\RequestLogger\bin\Release\netcoreapp2.1\RequestLogger.dll" target="lib\netcoreapp2.1\RequestLogger.dll" />
+  </files>
+</package>
