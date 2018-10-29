@@ -1,0 +1,17 @@
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\bin\Release\netcoreapp2.1\TestUI.deps.json
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\bin\Release\netcoreapp2.1\TestUI.runtimeconfig.json
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\bin\Release\netcoreapp2.1\TestUI.runtimeconfig.dev.json
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\bin\Release\netcoreapp2.1\TestUI.dll
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\bin\Release\netcoreapp2.1\TestUI.pdb
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\bin\Release\netcoreapp2.1\RequestLogger.dll
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\bin\Release\netcoreapp2.1\RequestLogger.pdb
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\obj\Release\netcoreapp2.1\TestUI.csprojAssemblyReference.cache
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\obj\Release\netcoreapp2.1\TestUI.csproj.CoreCompileInputs.cache
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\obj\Release\netcoreapp2.1\TestUI.RazorAssemblyInfo.cache
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\obj\Release\netcoreapp2.1\TestUI.RazorAssemblyInfo.cs
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\obj\Release\netcoreapp2.1\TestUI.AssemblyInfoInputs.cache
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\obj\Release\netcoreapp2.1\TestUI.AssemblyInfo.cs
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\obj\Release\netcoreapp2.1\TestUI.RazorTargetAssemblyInfo.cache
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\obj\Release\netcoreapp2.1\TestUI.csproj.CopyComplete
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\obj\Release\netcoreapp2.1\TestUI.dll
+D:\Projects\TFS\Project_RequestLoger\Net.CrossCutting.RequestLogger\RequestLoger\TestUI\obj\Release\netcoreapp2.1\TestUI.pdb

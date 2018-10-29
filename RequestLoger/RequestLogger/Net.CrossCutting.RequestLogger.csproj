@@ -12,10 +12,10 @@
     <Authors>Imran Shamszadeh, Ali Baghernejad</Authors>
     <PackageTags>.NetCore, Request, Logger, Log, Bug Fix, middleware, c#, asp.net</PackageTags>
     <PackageId>Net.CrossCutting.RequestLogger</PackageId>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Company />
     <RootNamespace>Net.CrossCutting.RequestLogger</RootNamespace>
-    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <AssemblyVersion>1.0.4.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
 

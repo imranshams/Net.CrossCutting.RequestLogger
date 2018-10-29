@@ -8730,11 +8730,11 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\TFS\\Project_RequestLoger\\Net.CrossCutting.RequestLogger\\RequestLoger\\RequestLogger\\RequestLogger.csproj",
+      "projectUniqueName": "D:\\Projects\\TFS\\Project_RequestLoger\\Net.CrossCutting.RequestLogger\\RequestLoger\\RequestLogger\\Net.CrossCutting.RequestLogger.csproj",
       "projectName": "Net.CrossCutting.RequestLogger",
-      "projectPath": "D:\\Projects\\TFS\\Project_RequestLoger\\Net.CrossCutting.RequestLogger\\RequestLoger\\RequestLogger\\RequestLogger.csproj",
+      "projectPath": "D:\\Projects\\TFS\\Project_RequestLoger\\Net.CrossCutting.RequestLogger\\RequestLoger\\RequestLogger\\Net.CrossCutting.RequestLogger.csproj",
       "packagesPath": "C:\\Users\\i.shams\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\TFS\\Project_RequestLoger\\Net.CrossCutting.RequestLogger\\RequestLoger\\RequestLogger\\obj\\",
       "projectStyle": "PackageReference",

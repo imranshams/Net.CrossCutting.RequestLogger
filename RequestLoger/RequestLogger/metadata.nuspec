@@ -3,7 +3,7 @@
   <metadata>
     <!-- Required elements-->
     <id>Net.CrossCutting.RequestLogger</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <description>You can log each one of your requests in asp.net core.</description>
     <authors>Imran Shamszadeh,Ali Baghernejad</authors>
 
