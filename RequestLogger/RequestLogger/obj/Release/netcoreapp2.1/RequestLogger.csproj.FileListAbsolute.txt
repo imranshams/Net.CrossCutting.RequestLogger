@@ -1,9 +1,0 @@
-D:\Projects\TFS\Project_RequestLoger\RequestLoger\RequestLogger\bin\Release\netcoreapp2.1\RequestLogger.deps.json
-D:\Projects\TFS\Project_RequestLoger\RequestLoger\RequestLogger\bin\Release\netcoreapp2.1\RequestLogger.dll
-D:\Projects\TFS\Project_RequestLoger\RequestLoger\RequestLogger\bin\Release\netcoreapp2.1\RequestLogger.pdb
-D:\Projects\TFS\Project_RequestLoger\RequestLoger\RequestLogger\obj\Release\netcoreapp2.1\RequestLogger.csproj.CoreCompileInputs.cache
-D:\Projects\TFS\Project_RequestLoger\RequestLoger\RequestLogger\obj\Release\netcoreapp2.1\RequestLogger.AssemblyInfoInputs.cache
-D:\Projects\TFS\Project_RequestLoger\RequestLoger\RequestLogger\obj\Release\netcoreapp2.1\RequestLogger.AssemblyInfo.cs
-D:\Projects\TFS\Project_RequestLoger\RequestLoger\RequestLogger\obj\Release\netcoreapp2.1\RequestLogger.dll
-D:\Projects\TFS\Project_RequestLoger\RequestLoger\RequestLogger\obj\Release\netcoreapp2.1\RequestLogger.pdb
-D:\Projects\TFS\Project_RequestLoger\RequestLoger\RequestLogger\obj\Release\netcoreapp2.1\RequestLogger.csprojAssemblyReference.cache
