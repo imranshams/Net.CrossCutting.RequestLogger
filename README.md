@@ -8,7 +8,7 @@ At the beginning you need to config **RequestLogger**, this is requierd because 
 
 ```json
 {
-  "RequestLog": {
+  "RequestLogger": {
     "Status": true,
     //file,sqlserver
     "Provider": "sqlserver",
