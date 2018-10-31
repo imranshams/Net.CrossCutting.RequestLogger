@@ -1,7 +1,7 @@
 RequestLogger/TestUI/bin
 RequestLogger/TestUI/obj
-RequestLogger\RequestLogger\obj
-RequestLogger\RequestLogger\bin
+RequestLogger/RequestLogger/obj
+RequestLogger/RequestLogger/bin
 RequestLogger/.vs
 RequestLogger/TestUI/bin/Debug/netcoreapp2.1/TestUI.runtimeconfig.dev.json
 RequestLogger/TestUI/bin/Debug/netcoreapp2.1/TestUI.pdb
