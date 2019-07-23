@@ -2,9 +2,9 @@
 
 Handle Cross-Cutting conserns via the power of Asp.net-core middelwares.  
 
-**RequestLogger** make it possible to log each http request and it related response to multiple data source (DB or file for example).
+**RequestLogger** make it possible to log each http request and it's related response to multiple data source (DB or file for example).
 
-At the beginning you need to config **RequestLogger**, this is requierd because we need to fetch some dynamic settings at start point. To achieve that add a new json properties named **RequestLog** to your  **appseting.josn** file.
+At the beginning you need to config **RequestLogger**, this is requierd because we need to fetch some dynamic settings at start point. To achieve that add a new json property named **RequestLog** to your  **appseting.josn** file.
 
 ```json
 {
