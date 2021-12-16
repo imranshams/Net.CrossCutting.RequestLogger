@@ -48,10 +48,10 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
     appBuilder.UseRequestLoggerMiddleware();    
     //...
 }
-}
 ```
 
-Also you can filter the routing of middelware as you want like the following example. In this example the middelware logs all recieved requests when incomming http requests started with '/api'.
+Also you can filter the routing of middelware as you want like the following example. 
+In this example the middelware logs all recieved requests when incomming http requests started with '/api'.
 ```c#
 public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 {
